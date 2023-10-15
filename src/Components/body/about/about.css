@@ -1,0 +1,55 @@
+.about {
+    padding-bottom: 48px;
+
+}
+
+.about-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture {
+    height: 300px;
+    margin-left: 120px;
+}
+
+.about-info {
+    font-size: 24px;
+}
+
+.info-name {
+    color: blue;
+    font-size: 32px;
+}
+
+.hello__icon {
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: wave-animation;
+  animation-name: wave-animation;
+  color: orange;
+  cursor: pointer;
+  display: inline-block;
+  transition: all .5s linear;
+}
+
+@media only screen and (max-width: 720px) {
+    .about-top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .picture {
+      height: 180px;
+      
+    }
+    .about-info {
+      font-size: 20px;
+    }
+    .info-name {
+      font-size: 26px;
+    }
+  }

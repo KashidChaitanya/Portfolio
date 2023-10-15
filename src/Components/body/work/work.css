@@ -1,0 +1,14 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .work-list {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
